@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/news-homepage-using-vuejs-grid-and-flex-css-z_XBvtR86D)
+- Live Site URL: [Live site](https://tahakhairy.github.io/fem-challenge-5/)
 
 ## My process
 
