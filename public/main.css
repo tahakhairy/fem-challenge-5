@@ -1,0 +1,38 @@
+:root {
+  --secondary-color: #e9ab53;
+  --primary-color: #f15e50;
+  --light-white: #fffdfa;
+  --greyish-blue: #c5c6ce;
+  --dark-greyish-blue: #5d5f79;
+  --dark-blue: #00001a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--light-white);
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Utils */
+.container {
+  max-width: 1150px;
+  padding: 1rem;
+  margin: auto;
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+  color: var(--light-white);
+}
+
+/* @import url(/public/mobile.css); */
