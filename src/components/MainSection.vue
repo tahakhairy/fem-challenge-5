@@ -229,7 +229,7 @@
   color: var(--primary-color);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   #main-articles .main-content {
     display: flex;
     flex-direction: column;

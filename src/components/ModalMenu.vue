@@ -26,7 +26,7 @@ const props = defineProps(["isOpen"]);
 </script>
 
 <style scoped>
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .modal {
     position: absolute;
     height: 100%;

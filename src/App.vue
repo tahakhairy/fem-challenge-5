@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from "vue";
+import { ref } from "vue";
 import Navbar from "./components/Navbar.vue";
 import MainSection from "./components/MainSection.vue";
 import ModalMenu from "./components/ModalMenu.vue";
@@ -21,7 +21,7 @@ const isOpen = ref(false);
 </script>
 
 <style scoped>
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .app {
     position: relative;
     width: 100%;
