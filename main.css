@@ -18,6 +18,10 @@ body {
   background-color: var(--light-white);
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 p {
   font-size: 15px;
   line-height: 1.6;
