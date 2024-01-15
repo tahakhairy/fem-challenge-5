@@ -4,7 +4,7 @@
       <div class="container">
         <div class="menu-content">
           <img
-            @click="$emit('closeMenu', false)"
+            @click="closeModal"
             src="../assets/images/icon-menu-close.svg"
             alt="close"
           />
@@ -23,6 +23,12 @@
 
 <script setup>
 const props = defineProps(["isOpen"]);
+
+const emit = defineEmits(["closeMenu"]);
+const closeModal = () => {
+  document.body.classList.remove("modal-open");
+  emit("closeMenu", false);
+};
 </script>
 
 <style scoped>

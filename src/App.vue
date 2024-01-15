@@ -21,6 +21,9 @@ const isOpen = ref(false);
 </script>
 
 <style scoped>
+.app {
+  margin: 3rem 0;
+}
 @media (max-width: 600px) {
   .app {
     position: relative;

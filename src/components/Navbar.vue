@@ -11,13 +11,19 @@
           <li><a href="#">Categories</a></li>
         </ul>
 
-        <div class="nav-menu" @click="$emit('openMenu', true)"></div>
+        <div class="nav-menu" @click="openModal"></div>
       </div>
     </div>
   </nav>
 </template>
 
-<script setup></script>
+<script setup>
+const emit = defineEmits(["openMenu"]);
+const openModal = () => {
+  emit("openMenu", true);
+  document.body.classList.add("modal-open");
+};
+</script>
 
 <style scoped>
 #main-nav .nav-content {
