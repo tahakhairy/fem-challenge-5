@@ -22,7 +22,7 @@ const isOpen = ref(false);
 
 <style scoped>
 .app {
-  margin: 3rem 0;
+  margin: 4rem 0;
 }
 @media (max-width: 600px) {
   .app {
